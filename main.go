@@ -1,7 +1,7 @@
 package main
 
 import flag "github.com/spf13/pflag"
-import "github.com/txzdream/serviceCourse/cloudgo/service"
+import "github.com/pineapple-chicken/cloudgo/service"
 import "os"
 
 const (
