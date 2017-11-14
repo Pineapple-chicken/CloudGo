@@ -15,10 +15,10 @@ func NewServer() *negroni.Negroni {
 	formatter := render.New(render.Options {
 	    IndentJSON: true,
 	})
-	// New mux and server
+	//New mux and server
 	r := mux.NewRouter()
 	server := negroni.Classic()
-	// Add router
+	//Add router
 	initRouter(r, formatter)
 	server.UseHandler(r)
 	return server
